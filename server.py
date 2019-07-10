@@ -19,7 +19,7 @@ last_seq = 0
 
 led = navio.leds.Led()
 pwms = [navio.pwm.PWM(chan) for chan in range(0, 14)]
-print(pwms)
+
 for pwm in pwms:
     pwm.initialize()
 
