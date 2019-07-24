@@ -4,7 +4,7 @@ import navio.pwm, navio.util, navio.leds
 # util.check_apm()
 
 PORT = 5001
-IP = "192.168.0.104"
+IP = ''
 TIMEOUT = 0.1 # seconds
 
 ENABLE_FLAG = 0b10000000
